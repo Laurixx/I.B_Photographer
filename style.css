@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Titillium+Web:300');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+      @@font-face {
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Titillium Web', sans-serif;
+      }
+* {
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: .4em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.main-nav li {
+  padding: 0 3%;
+}
+
+.nav a:hover{
+  background-color: rgba(255, 255, 255, .3)
+}
+.main-header {
+  background-color: rgba(0, 0, 0, .4);
+  background-image: url("Images/cover th.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.PH-name {
+  text-align: center;
+  margin: 0;
+  font-size: 5em;
+  font-family: 'Julius Sans One', sans-serif;
+  color: rgba(255, 255, 255, .9)
+
+}
+
+.PH-contact-name {
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Julius Sans One', sans-serif;
+  color: rgba(255, 255, 255, .9);
+}
+.content-section {
+  margin: .8em;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: .8em;
+}
+
+.section-header {
+       font-family: 'Inconsolata', monospace;
+       text-align: center;
+       font-size: 3em;
+}
+.about-TH-image {
+  float: left;
+  height: 400px;
+  width: 300px;
+  margin: 7px;
+  border-radius: 20%
+}
+.first-photo-image {
+   height: 400px;
+   width: 700px;
+   border-radius: 2%;
+}
+
+.main-footer {
+  background-color: #4D85BD;
+  color: white;
+  padding: 1.3em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items:center;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+   padding: 0 2em;
+}
+.footer-nav img {
+  width: 50px;
+  height: 50px;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: .3em 10% 1.3em 90%;
+  color: white;
+  border: 2px solid #528AC2;
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 25px;
+  font-size: .8em;
+  font-weight: lighter;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, .5)
+}
+.row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.land-skape-img {
+  width: 700px ;
+  height: 400px;
+  border-radius: 2%;
+}
+.portrait-img {
+  width: 500px;
+  height: 700px;
+  border-radius: 2%;
+}
+
+.book-item {
+  margin:25px;
+}
+
+.book-item-title {
+   display:block;
+   width: 100% ;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.2em;
+   color: #1A232B;
+   margin-bottom: 20px;
+
+}
+
+.book-item-img {
+  height: 320px;
+  width: 500px;
+  border-radius:9%;
+}
+
+.book-item-details {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.book-item-price {
+  flex-grow: 1;
+  color: #1A232B;
+  padding-right: 22px;
+}
+
+.book-items {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+}
+.merch-img {
+  height: 200px;
+}
+
+.book-btn {
+  color: rgb(255, 255, 255);
+  background-color: #737FA8;
+  border: none;
+  border-radius: .4em;
+  font-weight: bold;
+
+}
+
+.book-btn:hover {
+  background-color: #515E8A;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.45em
+  color:black;
+}
+.cart-collum {
+  border-bottom: 1px solid black;
+  align-items: center;
+  margin-right: 1.7em;
+  padding-bottom: 4px;
+  margin-top: 4px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: black;
+  font-size: 1.4em;
+  margin-left: .6em;
+  font-weight: bold;
+}
+.cart-item-image {
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #D76565;
+  border: none;
+  border-radius: .4em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #ED2020;
+}
+
+.cart-quantity-input {
+  height:120px;
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid #737FA8;
+  background-color: #FAF9F9;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 20px;
+}
+.total-price-title {
+  font-size: 4em;
+  margin-right: 35px;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+.purchase-btn {
+  width: 300px;
+  height: 80px;
+  margin-left: 22%;
+}
+.cup-price {
+  padding-left: 80px;
+}
